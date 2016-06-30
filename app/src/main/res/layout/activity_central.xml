@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kiran.mapthemall.CENTRAL"
+    android:background="#f56fb4"
+    >
+    <!--android:onClick="cc"
+    android:contextClickable="false"
+    android:backgroundTint="@android:color/darker_gray"-->
+
+
+
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton"
+
+        android:onClick="maps"
+
+        android:layout_marginRight="71dp"
+        android:layout_marginEnd="71dp"
+        android:contentDescription="@string/dr"
+        android:src="@drawable/mm"
+        android:background="#dfd3d3"
+        android:backgroundTint="#b4a8a8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <!--android:src="@drawable/mm"-->
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton2"
+        android:onClick="stores"
+
+        android:drawable="@color/abc_background_cache_hint_selector_material_light"
+        android:contentDescription="@string/dr1"
+        android:src="@drawable/sc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton3"
+        android:onClick=""
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/pr" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton4"
+
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:src="@drawable/dd" />
+
+    <!--android:src="@drawable/sc"-->
+
+    <!-- <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imageButton4"
+         android:src="@drawable/pr"
+         android:layout_below="@+id/imageButton"
+         android:layout_alignLeft="@+id/imageButton"
+         android:layout_alignStart="@+id/imageButton"
+         android:layout_alignBottom="@+id/imageButton"
+         android:layout_alignRight="@+id/imageButton"
+         android:layout_alignEnd="@+id/imageButton"
+         android:contentDescription="@string/dr3" />-->
+
+</RelativeLayout>
